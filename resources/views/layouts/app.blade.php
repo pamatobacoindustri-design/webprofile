@@ -49,6 +49,36 @@
         }
     </style>
 
+    {{-- Structured Data (JSON-LD) for SEO --}}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PT PAMA TOBACCO INDUSTRI",
+        "alternateName": "PAMA TOBACCO",
+        "url": "https://pamatobbacoindustri.up.railway.app",
+        "logo": "https://pamatobbacoindustri.up.railway.app/favicon.ico",
+        "description": "Produsen rokok nasional berkualitas tinggi dari Ds. Wangandawa, Kabupaten Tegal, Jawa Tengah. Menghasilkan SKT, SKM, dan rokok mild dengan standar kualitas terbaik.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Ds. Wangandawa",
+            "addressLocality": "Tegal",
+            "addressRegion": "Jawa Tengah",
+            "addressCountry": "ID"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "email": "info@pamatobacco.co.id"
+        },
+        "sameAs": [
+            "https://www.facebook.com/pamatobacco",
+            "https://www.instagram.com/pamatobacco",
+            "https://wa.me/62283XXXXXXX"
+        ]
+    }
+    </script>
+
     @stack('head')
 </head>
 <body class="bg-white">

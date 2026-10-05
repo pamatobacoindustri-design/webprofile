@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://pamatobbacoindustri.up.railway.app/sitemap.xml
